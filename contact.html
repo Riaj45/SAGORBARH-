@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact us</title>
+        <style>
+            * { 
+ padding: 0; 
+ margin: 0; 
+
+ }
+  
+  ul { 
+  list-style: none; 
+  background: #333;
+   text-align: center; 
+   } 
+   ul li {
+    display: inline-block;
+     position: relative;
+      }
+       ul li a { 
+       display: block;
+        padding: 10px 20px; 
+        color: #F7F5E8;
+         text-decoration: none; 
+         text-align: center;
+          font-size: 16px;
+           } 
+           ul li ul.dropdown li {
+            display: block; 
+            background: #333; 
+            margin: 2px 0px;
+             }
+              ul li ul.dropdown {
+               width:auto;
+                background: #00FF8C; 
+                position: absolute;
+                 z-index: 999;
+                  display: none;
+                   }
+                    ul li a:hover {
+                     background: #222;
+                      } ul li:hover ul.dropdown{
+                       display: block;
+                        } 
+body{
+    font-family:serif;
+    background-color:#F09B93;
+}
+
+
+h3{
+    color:#fff;
+    padding-top:25px;
+    padding:70px;
+}
+            
+        </style>
+    </head>
+    <body>
+        <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About Us</a></li>
+     <li>
+       <a href="#">Admisson &#x25BE;</a>
+       <ul class="dropdown">
+        <li><a href="five.html">5 to 10 </a></li>
+        <li><a href="eleven.html">11</a></li>
+        <li><a href="twelve.html">12</a></li>
+       </ul>
+       </li>
+     <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <h3>NO CONTACT ARE AVALABILE</h3>
+    </body>
+</html>

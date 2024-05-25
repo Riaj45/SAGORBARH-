@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Main page</title>
+  <style>
+      * { 
+ padding: 0; 
+ margin: 0; 
+
+ }
+  
+  ul { 
+  list-style: none; 
+  background: #333;
+   text-align: center; 
+   } 
+   ul li {
+    display: inline-block;
+     position: relative;
+      }
+       ul li a { 
+       display: block;
+        padding: 10px 20px; 
+        color: #F7F5E8;
+         text-decoration: none; 
+         text-align: center;
+          font-size: 16px;
+           } 
+           ul li ul.dropdown li {
+            display: block; 
+            background: #333; 
+            margin: 2px 0px;
+             }
+              ul li ul.dropdown {
+               width:auto;
+                background: #00FF8C; 
+                position: absolute;
+                 z-index: 999;
+                  display: none;
+                   }
+                    ul li a:hover {
+                     background: #222;
+                      } ul li:hover ul.dropdown{
+                       display: block;
+                        } 
+
+body{
+    font-family:serif;
+    background-color:#F09B93;
+}
+
+
+
+img{
+    width:88px;
+    border-radius:100px;
+  
+    
+}
+
+.pic{
+      padding-left:180px;
+      padding-top:12px;
+}
+
+
+
+#ro{
+    background-color:#106BDA;
+    color:#fff;
+}
+
+#xv{
+    background-color:#B38247;
+    color:#fff;
+}
+  </style>
+</head>
+<body>
+  <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About Us</a></li>
+     <li>
+       <a href="#">Admisson &#x25BE;</a>
+       <ul class="dropdown">
+        <li><a href="five.html">5 to 10</a></li>
+        <li><a href="eleven.html">11</a></li>
+        <li><a href="twelve.html">12</a></li>
+       </ul>
+       </li>
+     <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <marquee loop="1" style="color:#fff;">welcome to our website</marquee>
+  <marquee direction="down" behaviour="slide">  <div class="pic">  
+  <img src="https://i.postimg.cc/JnW8gsxQ/images-2.jpg">
+  </div>
+  </marquee>
+  <fieldset id="ro">
+      <h2>important notice</h2>
+      <marquee direction="up" scrollamount="2%"  >
+        <p>West Bengal scholarship is meant for students who are domiciled in the state at both school and college levels. <br>The scholarships for West Bengal aim at supporting meritorious, deserving, and underprivileged students of the state. <br>They are run by the government of West Bengal and its subsidiary departments.<br> Moreover, the state is also home to various reputed institutions of higher education like the Indian Institute of Management (Kolkata), Indian Institute of Technology (Kharagpur), Indian Institute of Science Education and Research (Kolkata), and National Institute of Technology (Durgapur) which makes the education for students of West Bengal easier and hassle-free.</p>
+      </marquee>
+  </fieldset>
+  <fieldset id="xv">
+      <p>
+          The school has Government building. It has got 12 classrooms for instructional purposes.<br All the classrooms are in good condition.<br> It has 2 other rooms for non-teaching activities.<br> The school has a separate room for Head master/Teacher.<br> The school has Pucca But Broken boundary wall.<br> The school has have electric connection. <br>The source of Drinking Water in the school is Tap Water and it is functional. <br>The school has 9 boys toilet and it is functional.<br> and 20 girls toilet and it is functional.<br> The school has a playground. The school has a library and has 2000 books in its library.<br> The school does not need ramp for disabled children to access classrooms.<br> The school has 8 computers for teaching and learning purposes and all are functional. <br>The school is not having a computer aided learning lab.<br> The school is Provided and Prepared in School Premises providing mid-day meal.
+      </p>
+  </fieldset>
+</body>
+
+</html>
